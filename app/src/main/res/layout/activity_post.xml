@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".activity.PostActivity">
+
+    <EditText
+        android:id="@+id/edtPostNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nama"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/edtPostNpm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/npm"
+        android:inputType="number"
+        android:maxLength="5"/>
+
+    <EditText
+        android:id="@+id/edtPostKelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/kelas"
+        android:inputType="textCapCharacters"/>
+
+    <EditText
+        android:id="@+id/edtPostEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/post_data"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+
+</LinearLayout>

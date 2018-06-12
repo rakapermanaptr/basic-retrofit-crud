@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Data Mahasiswa</string>
+    <string name="action_settings">Settings</string>
+    <string name="nama">Nama</string>
+    <string name="npm">Npm</string>
+    <string name="kelas">Kelas</string>
+    <string name="email">Email</string>
+    <string name="post_data">POST DATA</string>
+    <string name="edit_data">Edit Data</string>
+</resources>
