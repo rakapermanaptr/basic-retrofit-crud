@@ -37,6 +37,7 @@ public class UpdateActivity extends AppCompatActivity {
 
         getIncomingIntent();
 
+        
         btnUpdate = (Button) findViewById(R.id.btnUpdate);
         btnUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
